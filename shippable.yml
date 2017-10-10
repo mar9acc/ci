@@ -13,14 +13,12 @@ node_js:
 build:     
   ci:          
     - node --version
-    - cat /tmp/ssh/newssh
-    - cat /tmp/ssh/testdelete123
+    - cat /tmp/ssh/keytest
+  #  - cat /tmp/ssh/testdelete123
     #- sleep 2m
     
 integrations:
   key:
-    - integrationName: newssh
+    - integrationName: keytest
       type: ssh-key
 
-    - integrationName: testdelete
-      type: ssh-key
