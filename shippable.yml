@@ -21,3 +21,5 @@ integrations:
   key:
     - integrationName: keytest
       type: ssh-key
+
+
