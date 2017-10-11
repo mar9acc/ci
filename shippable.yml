@@ -24,3 +24,6 @@ integrations:
 
     - integrationName: pemkey
       type: pemKey
+      
+    - integrationName: pemactual
+      type: pem-key
