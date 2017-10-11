@@ -15,6 +15,7 @@ build:
     - node --version
     #- cat /tmp/ssh/pemkeytest12
     - cat /tmp/ssh/pemkey
+    - cat /tmp/ssh/pemactual
     #- sleep 2m
     
 integrations:
