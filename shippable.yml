@@ -19,8 +19,8 @@ build:
     
 integrations:
   generic:
-    - integrationName: pemkeytest
-      type: pem-key
+    #- integrationName: pemkeytest
+    #  type: pem-key
 
     - integrationName: pemkey
       type: pemKey
