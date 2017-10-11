@@ -13,14 +13,14 @@ node_js:
 build:     
   ci:          
     - node --version
-    - cat /tmp/ssh/newssh
-    - cat /tmp/ssh/testdelete123
+    - cat /tmp/ssh/pemkeytest
+    - cat /tmp/ssh/pemkey
     #- sleep 2m
     
 integrations:
-  key:
-    - integrationName: newssh
-      type: ssh-key
+  generic:
+    - integrationName: pemkeytest
+      type: pem-key
 
-    - integrationName: testdelete
-      type: ssh-key
+    - integrationName: pemkey
+      type: pemKey
