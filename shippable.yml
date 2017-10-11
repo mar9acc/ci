@@ -13,7 +13,7 @@ node_js:
 build:     
   ci:          
     - node --version
-    - cat /tmp/ssh/pemkeytest1
+    - cat /tmp/ssh/pemkeytest12
     - cat /tmp/ssh/pemkey
     #- sleep 2m
     
