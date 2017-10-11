@@ -15,7 +15,7 @@ build:
     - node --version
     - cat /tmp/ssh/newssh
   #  - cat /tmp/ssh/testdelete123
-    #- sleep 2m
+    - sleep 5m
     
 integrations:
   key:
