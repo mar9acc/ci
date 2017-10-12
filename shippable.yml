@@ -18,9 +18,9 @@ build:
     #- sleep 2m
     
 integrations:
-  generic:
+  key:
     - integrationName: newssh
-      type: sshKey
+      type: ssh-key
 
    # - integrationName: testdelete
    #   type: ssh-key
