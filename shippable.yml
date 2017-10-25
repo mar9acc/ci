@@ -17,14 +17,18 @@ build:
   #  - cat /tmp/ssh/testdelete123
     #- sleep 2m
     
-integrations:
-  generic:
-    - integrationName: newssh
-      type: ssh-key
-
-   # - integrationName: testdelete
-   #   type: ssh-key
-
+integrations:    
+  notifications:
+    - integrationName: testslack
+      type: slack
+      recipients:
+        - "#random" 
+        - "#rc-public" 
+        - "#rc-private"
+      on_start: always
+      on_success: always
+      on_failure: always 
+      on_cancel: always
 
 
 
